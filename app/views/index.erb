@@ -1,0 +1,36 @@
+<div class="container">
+
+  <h3>Enter a github username to see their avatar:</h3>
+
+  <div>
+    <form id="avatar" action='/avatar' method="post">
+      <input type="text" name="username">
+      <input type="submit">
+    </form>
+  </div><br>
+
+  <div id="a_result"></div>
+
+  <h3>Enter a github username to see their followers:</h3>
+
+  <div>
+    <form id ="followers" action='/followers' method="post">
+      <input type="text" name="username">
+      <input type="submit">
+    </form>
+  </div><br>
+
+  <div id="followers_list"></div>
+
+  <h3>Enter a github username to see who they're following:</h3>
+
+  <div>
+    <form id ="following" action='/following' method="post">
+      <input type="text" name="username">
+      <input type="submit">
+    </form>
+  </div><br>
+
+  <div id="following_list"></div>
+
+</div>
